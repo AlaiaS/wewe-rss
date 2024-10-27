@@ -6,7 +6,7 @@ services:
     command: --mysql-native-password=ON
     environment:
       # 请修改为自己的密码
-      MYSQL_ROOT_PASSWORD: qSgXTXlaiAlpYGKHfgKTEFOGLYYyHHFC
+      MYSQL_ROOT_PASSWORD: ${MYSQL.MYSQL_ROOT_PASSWORD}
       TZ: 'Asia/Shanghai'
       MYSQL_DATABASE: 'wewe-rss'
     # ports:
